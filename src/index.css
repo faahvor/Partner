@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-fullscreen {
+  height: calc(100vh - 60px); 
+}

@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        "com":["Cormorant" , "serif"],
+        "syne":["Syne", "sans-serif"],
+        "metro":["Metrophobic", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }

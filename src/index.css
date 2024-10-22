@@ -5,3 +5,10 @@
 .section-fullscreen {
   height: calc(100vh - 60px); 
 }
+.h1{
+  @apply flex flex-col text-[40.24px] text-white font-syne;
+}
+.icon{
+  @apply text-[#E7A9A9];
+  
+}

@@ -12,7 +12,7 @@ const Registration = () => {
   return (
     <div className="flex flex-col items-center font-metro  pt-[7rem] h-full mb-[2rem] bg-white w-full ">
         <h1 className="font-bold text-[34.65px] text-center mb-5">Ready to Propel Your Travel Business to New Heights?</h1>
-        <p className="text-[25.02px] md:w-[868px] mx-[4rem] w-full text-[#667085] text-center md:mx-0">Whether you're starting fresh or aiming for unprecedented growth, this is your chance to excel. Register now to access exclusive insights, innovative strategies, and powerful tools to drive your travel business forward with PartnerPlus Pro.</p>
+        <p className="text-[25.02px]  px-[4rem]  text-[#667085] text-center md:mx-0 md:w-[868px]">Whether you're starting fresh or aiming for unprecedented growth, this is your chance to excel. Register now to access exclusive insights, innovative strategies, and powerful tools to drive your travel business forward with PartnerPlus Pro.</p>
     
     
             <form className="mx-8 md:mx-0">

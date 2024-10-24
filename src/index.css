@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding and border are included in total width/height */
+}
+body {
+  overflow-x: hidden; /* Hides horizontal overflow across the entire site */
+}
 .section-fullscreen {
   height: calc(100vh - 60px); 
 }
 .h1{
-  @apply flex flex-col text-[40.24px] text-white font-syne;
+  @apply flex flex-col text-[20px]  text-white font-syne md:text-[40.24px];
 }
 .icon{
   @apply text-[#E7A9A9];

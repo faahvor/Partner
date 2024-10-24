@@ -1,11 +1,11 @@
 
 const Hero = () => {
   return (
-    <div className="relative h-full pt-[8rem] flex md:flex-row flex-col justify-between bg-gradient-to-l from-[#F1BEC1]  via-[#EFDBDF] via-10% to-[#EDF2F8]  ">
-        <div className="md:w-[547px] md:ml-[5rem] mb-[24rem] md:mb-0">
-        <div className="flex flex-col md:items-start items-center">
-            <h1 className="md:text-[80.13px] text-[40px] text-center md:text-start font-bold font-syne md:leading-[84.98px] mb-4"><span className="text-[#52687E] ">Welcome to</span> <span className="text-[#05284C] ">PartnerPlus</span> <span className="text-[#EC6166] ">Connect</span>  </h1>
-            <p className="md:w-[474px] text-[24.16px] text-center md:text-start text-[#021C36]   font-normal font-metro mb-4">The webinar series that empowers you with the knowledge and opportunities you need to thrive in the travel industry.</p>
+    <div className="relative h-full pt-[8rem] flex lg:flex-row flex-col justify-between bg-gradient-to-l from-[#F1BEC1]  via-[#EFDBDF] via-10% to-[#EDF2F8]  ">
+        <div className="lg:w-[547px] lg:ml-[5rem] mb-[24rem] lg:mb-0">
+        <div className="flex flex-col lg:items-start items-center">
+            <h1 className="lg:text-[80.13px] text-[40px] text-center lg:text-start font-bold font-syne lg:leading-[84.98px] mb-4"><span className="text-[#52687E] ">Welcome to</span> <span className="text-[#05284C] ">PartnerPlus</span> <span className="text-[#EC6166] ">Connect</span>  </h1>
+            <p className="lg:w-[474px] text-[24.16px] text-center lg:text-start text-[#021C36]   font-normal font-metro mb-4">The webinar series that empowers you with the knowledge and opportunities you need to thrive in the travel industry.</p>
             <div className="flex gap-2 items-center mb-4">
               <h1 className="text-[21.11px] font-metro font-semibold ">Powered by</h1> <img className="mt-[0.8rem]" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729380800/sinclair/Component_1_pvxeab.png" alt="" />
             </div>
@@ -19,8 +19,8 @@ const Hero = () => {
      
     </div>
     <div className="flex ">
-      <img className="md:h-[724px] md:w-[517px] h-[400px]   md:right-[20rem] right-[10rem] z-20  absolute bottom-0" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729379219/sinclair/african-american-business-woman1_1_r61rmr.png" alt="" />
-    <img className="md:h-[633px] md:w-[504px] h-[400px] right-0 absolute  bottom-0  z-10 " src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729379219/sinclair/african-american-business-woman22_1_qq28vq.png" alt="" /></div>
+      <img className="lg:h-[724px] lg:w-[517px] h-[400px]   lg:right-[20rem] right-[10rem] z-20  absolute bottom-0" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729379219/sinclair/african-american-business-woman1_1_r61rmr.png" alt="" />
+    <img className="lg:h-[633px] lg:w-[504px] h-[400px] right-0 absolute  bottom-0  z-10 " src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729379219/sinclair/african-american-business-woman22_1_qq28vq.png" alt="" /></div>
     </div>
   )
 }

@@ -5,16 +5,16 @@ import { SlCalender } from "react-icons/sl";
 
 const Time = () => {
   return (
-    <div className="bg-[#D5EAFF] h-full  pt-[9rem]  flex flex-col md:flex-row relative  ">
+    <div className="bg-[#D5EAFF] h-full  md:pt-[9rem]  flex flex-col md:flex-row relative overflow-hidden ">
       <div>
-        <div className="pl-[5rem]">
-          <h1 className="text-[26.95px] text-[#ED3237] font-metro font-medium">
+        <div className="pl-[1rem] pr-[1rem] md:pl-[5rem] md:pr-0 ">
+          <h1 className=" text-[#ED3237]  font-metro font-medium  md:text-[26.95px]">
             Edition X
           </h1>
-          <p className="font-syne font-bold text-[53.44px] md:w-[689px] text-[#05284C]">
+          <p className="font-syne font-bold text-[26.95px] text-center   text-[#05284C] md:text-start md:text-[53.44px] md:w-[689px]">
             Growing Your Travel Business with PartnerPlus Pro
           </p>
-          <p className="text-[#999999] text-[16px] font-medium font-metro flex items-center gap-3 mb-[5rem]">
+          <p className="text-[#999999] text-[16px] font-medium font-metro flex justify-center items-center gap-3 mb-[5rem] md:justify-start">
             {" "}
             <span>View Synopsis</span>{" "}
             <span className="mt-1">
@@ -22,12 +22,13 @@ const Time = () => {
             </span>
           </p>
         </div>
-        <div className="absolute bg-[#05284C] justify-center items-center rounded-2xl text-[23.14px] font-metro font-medium  text-white flex flex-col top-[22rem] right-[25rem] p-[2rem] ">
+        <div className="absolute hidden bg-[#05284C] justify-center items-center rounded-2xl text-[23.14px] font-metro font-medium  text-white lg:flex flex-col p-[2rem]  md:top-[23rem] md:right-[26rem]">
           <span>
             <MdArrowOutward />
           </span>
           <span>Register</span>
         </div>
+        <div className="absolute hidden   h-[4rem] w-[1rem] bg-[#05284C] rotate-45 md:top-[29.5rem] md:right-[35.7rem] lg:block"></div>
         <div className="bg-[#05284C]  p-4 mt-[-1.5rem] z-10 h-[17rem]  flex rounded-tr-2xl justify-center items-center">
           <div className="flex gap-[2rem]">
             <h1 className="h1">
@@ -54,7 +55,7 @@ const Time = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 right-[6rem]">
+      <div className="absolute top-0 right-[6rem] hidden md:block">
         <img
           src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729545868/sinclair/Line_pattern_pcgsib.png"
           alt=""

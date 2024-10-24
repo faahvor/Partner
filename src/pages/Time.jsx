@@ -1,9 +1,24 @@
+import { useState } from "react";
 import { CiClock2, CiLocationOn } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
+import Synopsis from "./Synopsis";
 
 const Time = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleRegisterClick = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const handleBackgroundClick = (e) => {
+    setShowModal(false)
+  };
   return (
     <div className="bg-[#D5EAFF] h-full  md:pt-[9rem]  flex flex-col md:flex-row relative overflow-hidden ">
       <div>
@@ -14,13 +29,22 @@ const Time = () => {
           <p className="font-syne font-bold text-[26.95px] text-center   text-[#05284C] md:text-start md:text-[53.44px] md:w-[689px]">
             Growing Your Travel Business with PartnerPlus Pro
           </p>
-          <p className="text-[#999999] text-[16px] font-medium font-metro flex justify-center items-center gap-3 mb-[5rem] md:justify-start">
+          <p onClick={handleRegisterClick} className="text-[#999999] text-[16px] font-medium font-metro flex justify-center items-center gap-3 mb-[5rem] md:justify-start">
             {" "}
             <span>View Synopsis</span>{" "}
             <span className="mt-1">
               <FaArrowRight />
             </span>
+          
           </p>
+          {showModal && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          
+        >
+          <Synopsis closeModal={closeModal} handle={handleBackgroundClick} />
+        </div>
+      )}
         </div>
         <div className="absolute hidden bg-[#05284C] justify-center items-center rounded-2xl text-[23.14px] font-metro font-medium  text-white lg:flex flex-col p-[2rem]  md:top-[23rem] md:right-[26rem]">
           <span>

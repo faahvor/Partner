@@ -20,3 +20,12 @@ body {
   @apply text-[#E7A9A9];
   
 }
+.reason{
+  @apply flex flex-col items-center   mt-[2rem] lg:items-start lg:w-[661px] lg:flex-row;
+}
+.h2{
+  @apply text-[19.25px] text-center font-metro font-bold text-[#667085] lg:text-start lg:text-[28.87px];
+}
+.p{
+  @apply w-full px-2 text-center  font-normal font-metro text-[#667085] lg:text-start lg:px-0 lg:w-[459.09px] lg:text-[19.25px];
+}

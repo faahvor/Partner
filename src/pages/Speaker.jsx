@@ -3,7 +3,7 @@ const Speaker = () => {
     <div className="grid grid-cols-1 h-full  bg-[#06396C] rounded-br-2xl relative pt-[5rem] text-white lg:h-[900px] lg:grid-cols-[50%,1fr]">
       <div>
         <img
-          className=" h-[400px] rounded-full w-full mb-[6rem] lg:mb-0 lg:w-[662px]  lg:absolute lg:rounded-sm lg:bottom-0 lg:h-[800px]"
+          className=" h-[400px] rounded-full w-[400px] px-4 object-center mb-[6rem] lg:mb-0 lg:w-[662px]  lg:absolute lg:rounded-sm lg:bottom-0 lg:h-[800px]"
           src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729722786/sinclair/GMD_1_ztbxvv.png"
           alt=""
         />
@@ -14,7 +14,7 @@ const Speaker = () => {
         <h1 className="text-[66.47px] text-center font-semibold font-syne text-[#8CA3BB] mt-[2rem] lg:text-start">Bankole</h1>
         <h1 className="text-[66.47px] text-center font-semibold font-syne mt-[-2rem] md:text-start">Bernard</h1>
         <p className="text-[19.25px] text-center font-metro font-normal text-[#A9C4E3] lg:text-start ">Group Managing Director, Finchglow Holdings</p>
-        <p className="text-[22.14px] text-center  font-metro font-normal lg:text-start lg:w-[747px] lg:h-[375px]">
+        <p className="text-[22.14px] text-center  font-metro font-normal lg:text-start  lg:h-[375px]">
           Bankole Bernard is the Founder, Glg/CEO of Finchglow Holdings, a
           parent company of six leading travel and aviation industry players in
           Nigeria. With 18 years of leadership, he has modernized the downstream

@@ -43,8 +43,13 @@ const Reserve = ({handle}) => {
   return (
     <div className="fixed inset-0 bg-gray-800 bg-opacity-50 flex justify-center items-center mx-[2rem] lg:mx-0">
         
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
-      <p className='font-bold text-[2rem] pt-[-2rem] cursor-pointer' onClick={handle}>x</p>
+      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full relative">
+      <button
+          onClick={handle}
+          className="absolute right-[1rem] top-[-0.5rem] text-gray-500 font-bold hover:text-gray-800 text-[2rem]"
+        >
+          &times;
+        </button>
         <h2 className="text-xl font-bold text-center mb-2">Wait! Don’t Miss Out on Growing Your Travel Business!</h2>
         <p className="text-center text-gray-600">Unlock the Secrets to Boosting Your Travel Business with PartnerPlus Pro</p>
         <p className="text-center text-red-500 font-semibold my-2">Seats Are Limited – Secure Your Spot Now!</p>

@@ -17,9 +17,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#02172D] h-[91.51px] fixed w-full max-w-full  md:px-[5rem] flex flex-col justify-center z-50">
-      <nav className="flex justify-between items-center ">
-        <div className="flex flex-col ml-[5rem] md:ml-0">
+    <div className="bg-[#02172D] h-[91.51px] fixed w-full    md:px-[5rem] flex flex-col justify-center z-50">
+      <nav className="flex justify-between items-center min-w-[300px] lg:gap-[38rem]  mx-auto max-w-[1280px] ">
+        <div className="flex flex-col ">
           <h1 className="flex">
             <span>
               <img src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729377152/sinclair/PartnerPlus_vwekx9.png" alt="Logo" />

@@ -14,7 +14,7 @@ body {
   height: calc(100vh - 60px); 
 }
 .h1{
-  @apply flex flex-col text-[20px]  text-white font-syne md:text-[40.24px];
+  @apply flex flex-col text-[18px]  text-white font-syne md:text-[40.24px];
 }
 .icon{
   @apply text-[#E7A9A9];

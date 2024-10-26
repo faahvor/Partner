@@ -17,6 +17,7 @@ const Time = () => {
   };
 
   const handleBackgroundClick = (e) => {
+    e.preventDefault();
     setShowModal(false)
   };
   return (
@@ -26,7 +27,7 @@ const Time = () => {
           <h1 className=" text-[#ED3237]  font-metro font-medium  md:text-[26.95px]">
             Edition X
           </h1>
-          <p className="font-syne font-bold text-[26.95px] text-center   text-[#05284C] md:text-start md:text-[53.44px] md:w-[689px]">
+          <p className="font-syne font-bold text-[23.95px] text-center   text-[#05284C] md:text-start md:text-[53.44px] md:w-[689px]">
             Growing Your Travel Business with PartnerPlus Pro
           </p>
           <p onClick={handleRegisterClick} className="text-[#999999] text-[16px] font-medium font-metro flex justify-center items-center gap-3 mb-[5rem] md:justify-start">

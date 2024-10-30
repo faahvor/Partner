@@ -10,8 +10,8 @@ const Speaker = () => {
       </div>
       <div className="pt-[20px] mx-4 z-30  lg:relative ">
         
-        <img className="h-[4rem] ml-[6rem] absolute top-[17.7rem] left-[4rem] md:left-[22rem] lg:top-[-3.6rem] z-10 lg:left-0" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729725167/sinclair/megaphone_1_xu9ija.png" alt="" />
-        <div className="flex justify-center">
+        <img className="h-[4rem] ml-[6rem] absolute top-[17.7rem] left-[4rem] md:left-[22rem] lg:top-[-2rem]  z-10 lg:left-0" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729725167/sinclair/megaphone_1_xu9ija.png" alt="" />
+        <div className="flex justify-center lg:justify-start">
         <button className="bg-[#E7A9A9]  z-20 lg:h-[44.64px] h-[30.64px] w-[100.23px] lg:w-[182.23px] text-black rounded-lg font-bold font-metro text-[10px] lg:text-[18.14px] ">Meet the Speaker</button>
         </div>
         <h1 className="lg:text-[66.47px] text-[33.47px] text-center font-semibold font-syne text-[#8CA3BB]  lg:text-start">Bankole</h1>

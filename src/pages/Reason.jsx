@@ -8,6 +8,7 @@ const Reason = () => {
         <div className="flex flex-col px-[20px]  items-center  lg:items-start lg:pl-[8rem]   lg:gap-x-[4rem] lg:mt-[4rem] lg:flex-row">
             <div className="relative pt-10 lg:pt-0 mx-[3rem]">
                 <div className="border-[10px] border-[#8CA3BB]  w-[170.12px] h-[280.84px] lg:h-[644.84px] lg:w-[458.12px] rounded-t-full   ">
+                    <img className="w-full h-full object-cover rounded-t-full" src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1730293858/sinclair/pexels-karolina-grabowska-4467687_tp0faq.jpg" alt="" />
                     <div className="absolute bottom-[9rem] lg:bottom-[14rem] left-[-4rem] w-[160.26px] lg:w-[232.26px] h-[27.23px] lg:h-[47.23px] bg-white items-center flex rounded-full justify-between px-4 ">
                     <div className="h-[8.81px] lg:h-[19.81px] w-[8.94px] lg:w-[19.94px] bg-[#05284C] rounded-full flex items-center justify-center  ">
                     <img className="h-[6.05px] lg:h-[12.05px] w-[6.05px] lg:w-[12.05px] text-white   " src="https://res.cloudinary.com/dsjsvmug6/image/upload/v1729857498/sinclair/Vector_6_1_kchwxf.png" alt="" />
